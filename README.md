@@ -14,6 +14,7 @@ as simple as:
 1. Bootstrap integrated in `node_modules` and compiled as a minified css file.
 2. "Open Sans" font added for demo purpuses in the sass build process.
 3. Project set for full ES6 compatibility. 
+4. Icons package integration using "[Icomoon](https://icomoon.io/app)" 
 
 ## License
 [MIT](https://github.com/verybluebot/webstart/blob/master/LICENSE.md)
