@@ -1,9 +1,9 @@
 /*!
- * portfolio
- * My portfolio website
- * https://shulga.com
- * @author Shulga
- * @version 1.0.5
+ * template
+ * Template for jQuery projects based on 'fastShell'
+ * https://github.com/verybluebot
+ * @author Blue Bot
+ * @version 1.0.0
  * Copyright 2017. MIT licensed.
  */
 'use strict';
