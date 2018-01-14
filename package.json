@@ -1,6 +1,6 @@
 {
-  "name": "template",
-  "title": "Template for jQuery projects based on 'fastShell'",
+  "name": "hungry-dragon",
+  "title": "Hungry dragon game made in Phaser",
   "author": "Blue Bot",
   "url": "https://github.com/verybluebot",
   "version": "1.0.0",
@@ -24,6 +24,6 @@
     "jshint": "^2.8.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "phaser-ce": "^2.9.4"
   }
 }

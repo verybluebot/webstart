@@ -56,7 +56,7 @@ gulp.task('css-bootstrap', function () {
 
 
 gulp.task('js',function(){
-  gulp.src('src/js/scripts.js')
+  gulp.src('src/js/**/*.js')
     .pipe(sourcemaps.init())
     .pipe(babel({ presets: ['es2015'] }))    // #3. transpile ES2015 to ES5 using ES2015 preset
     .pipe(jshint('.jshintrc'))
