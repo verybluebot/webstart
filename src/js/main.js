@@ -1,4 +1,5 @@
 let game;
+let score
 
 window.onload = () => {
   if (screen.width > 1000) {

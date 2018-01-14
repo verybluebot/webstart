@@ -9,6 +9,7 @@
 'use strict';
 
 var game = void 0;
+var score = void 0;
 
 window.onload = function () {
   if (screen.width > 1000) {
