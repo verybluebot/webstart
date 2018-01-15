@@ -113,7 +113,7 @@ var StateMain = {
   },
 
   eatCandy: function eatCandy(dragon, candy) {
-    if (candy.frame == this.think.frame) {
+    if (candy.frame === this.think.frame) {
 
       candy.kill();
       score++;
@@ -121,6 +121,8 @@ var StateMain = {
       this.resetThink();
     } else {
       candy.kill();
+      game.state.start('StateGameOver');
+      this.resetThink();
     }
   },
 

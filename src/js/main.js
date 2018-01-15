@@ -9,5 +9,7 @@ window.onload = () => {
   }
 
   game.state.add('StateMain', StateMain);
-  game.state.start('StateMain');
+  game.state.add('StateGameOver', StateGameOver);
+  game.state.add('StateStartGame', StateStartGame);
+  game.state.start('StateStartGame');
 };
